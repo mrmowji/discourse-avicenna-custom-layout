@@ -1,0 +1,9 @@
+{
+  "name": "Custom Layout for Avicenna",
+  "component": true,
+  "authors": "Mojtaba Javan",
+  "about_url": "",
+  "license_url": "",
+  "minimum_discourse_version": "3.2.0.beta3",
+  "maximum_discourse_version": null
+}
