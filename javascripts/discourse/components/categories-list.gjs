@@ -13,13 +13,13 @@ export default class CategoriesList extends Component {
     {{#if this.showOnRoute}}
         <div class="custom-category-list">
         {{#each this.categories as |category|}}
-            <a href="/c/{{category.slug}}/{{category.id}}" class="category-list__item">
+            <a href="/c/{{category.slug}}/{{category.id}}" class="custom-category-list__item">
             {{#if category.uploaded_logo.url}}
-                <img src="{{category.uploaded_logo.url}}" alt="{{category.name}} logo" class="category-list__logo" />
+                <img src="{{category.uploaded_logo.url}}" alt="{{category.name}} logo" class="custom-category-list__logo" />
             {{/if}}
             <div>
-                <h2 class="category-list__title">{{category.name}}</h2>
-                <p class="category-list__description">{{category.description_text}}</p>
+                <h2 class="custom-category-list__title">{{category.name}}</h2>
+                <p class="custom-category-list__description">{{category.description_text}}</p>
             </div>
             </a>
         {{/each}}
