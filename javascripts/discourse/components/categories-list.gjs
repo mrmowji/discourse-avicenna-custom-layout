@@ -11,7 +11,7 @@ export default class CategoriesList extends Component {
 
   <template>
     {{#if this.showOnRoute}}
-        <div class="category-list">
+        <div class="custom-category-list">
         {{#each this.categories as |category|}}
             <a href="/c/{{category.slug}}/{{category.id}}" class="category-list__item">
             {{#if category.uploaded_logo.url}}
