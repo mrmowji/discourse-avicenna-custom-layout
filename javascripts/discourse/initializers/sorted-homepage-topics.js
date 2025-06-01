@@ -6,8 +6,8 @@ export default {
   name: "discourse-custom-homepage",
   initialize() {
     withPluginApi("0.11.4", (api) => {
-        setDefaultHomepage('latest?order=created&');
-        PreloadStore.remove("topic_list");
+        //setDefaultHomepage('latest?order=created&');
+        //PreloadStore.remove("topic_list");
     });
   },
 };
