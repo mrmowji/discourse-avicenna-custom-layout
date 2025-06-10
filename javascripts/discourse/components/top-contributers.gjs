@@ -53,7 +53,7 @@ export default class TopContributers extends Component {
   }
 
   async loadContributors() {
-    let response = await fetch('/directory_items.json?period=quarterly&order=topic_count&exclude_groups=admins|moderators&limit=5');
+    let response = await fetch('/directory_items.json?period=quarterly&order=topic_count&exclude_groups=admins|moderators|writers&limit=5');
     let data = await response.json();
     this.contributors = data.directory_items;
   }
