@@ -20,7 +20,7 @@ export default class CategoriesList extends Component {
             </div>
             </a>
             <a href="/t/frequently-asked-questions/5" class="custom-category-list__item faq">
-              <img src="https://forum.avicennaresearch.com/uploads/default/original/1X/f8ee0011198dba1c4e4a8d878c73441b1e6346e4.png" alt="Frequently Asked Questions" class="custom-category-list__logo" />
+              <img src="https://forum.avicennaresearch.com/uploads/default/original/1X/f06e8c82aa3f71fec6260834181bd19beff089dd.png" alt="Frequently Asked Questions" class="custom-category-list__logo" />
               <div>
                 <h2 class="custom-category-list__title">FAQ</h2>
                 <p class="custom-category-list__description">Find answers to common questions about Avicenna Research here. Check this page before submitting a ticket or contacting us.</p>
