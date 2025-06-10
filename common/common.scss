@@ -28,9 +28,26 @@
     /* Remove width, let grid handle sizing */
     padding: 20px;
     cursor: pointer;
+    
     &:hover {
       box-shadow: 0 4px 16px rgba(0,0,0,0.10);
       border-color: var(--tertiary);
+    }
+
+    &.ask-ai {
+      background: #00bf73;
+
+      h2, p {
+        color: white;
+      }
+    }
+
+    &.faq {
+      background: #ff9029;
+
+      h2, p {
+        color: white;
+      }
     }
   }
 
