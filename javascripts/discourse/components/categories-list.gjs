@@ -12,14 +12,14 @@ export default class CategoriesList extends Component {
   <template>
     {{#if this.showOnRoute}}
         <div class="custom-category-list">
-            <a href="/t/ask-ai/2" class="custom-category-list__item ask-ai">
+            <a href="/t/ask-ai/1211" class="custom-category-list__item ask-ai">
               <img src="https://forum.avicennaresearch.com/uploads/default/original/1X/2d4303f64fda0f6dbcfb87a32d65b357d9e93f3a.png" alt="Chat Bot" class="custom-category-list__logo" />
               <div>
                 <h2 class="custom-category-list__title">Ask AI</h2>
                 <p class="custom-category-list__description">Download our documentation, upload it to an AI tool like Google AI Studio, and engage in personalized Q&A sessions.</p>
             </div>
             </a>
-            <a href="/t/ask-ai/1211" class="custom-category-list__item faq">
+            <a href="/t/frequently-asked-questions/5" class="custom-category-list__item faq">
               <img src="https://forum.avicennaresearch.com/uploads/default/original/1X/f8ee0011198dba1c4e4a8d878c73441b1e6346e4.png" alt="Frequently Asked Questions" class="custom-category-list__logo" />
               <div>
                 <h2 class="custom-category-list__title">FAQ</h2>
