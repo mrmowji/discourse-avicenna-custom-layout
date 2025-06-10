@@ -4,7 +4,7 @@
   gap: 1.5em;
   margin: 70px 0 !important;
 
-  @media (max-width: 700px) {
+  @media (max-width: 1150px) {
     grid-template-columns: 1fr;
   }
 
@@ -15,7 +15,7 @@
 
   &__item {
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
     background: var(--secondary);
     border: 1px solid var(--primary-low);
     border-radius: 8px;
@@ -45,11 +45,10 @@
     width: 100px;
     height: 100px;
     object-fit: contain;
-    margin: auto 1em auto 0;
+    margin: 0 1em auto 0;
     background: var(--primary-very-low);
     border-radius: 6px;
     flex-shrink: 0;
-    align-self: center;
     padding: 15px;
   }
 
@@ -88,7 +87,7 @@
   gap: 2rem;
   margin: 70px 0;
 
-  @media (max-width: 700px) {
+  @media (max-width: 1150px) {
     grid-template-columns: 1fr;
   }
 }
