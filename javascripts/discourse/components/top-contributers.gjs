@@ -1,8 +1,6 @@
-import { getOwner } from "@ember/application";
 import { tracked } from "@glimmer/tracking";
-import { inject as service } from '@ember/service';
+import { service } from '@ember/service';
 import Component from "@glimmer/component";
-import { hbs } from 'ember-cli-htmlbars';
 import { defaultHomepage } from 'discourse/lib/utilities';
 import avatar from "discourse/helpers/avatar";
 
